@@ -1,24 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vs9-TD-poP">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Матчи-->
+        <scene sceneID="4My-oy-dqV">
+            <objects>
+                <viewController id="VcK-7s-J7e" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xDW-W0-and">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Матчи" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2h-VE-oLe">
+                                <rect key="frame" x="8" y="71" width="145" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="145" id="Mud-Kq-Mxe"/>
+                                    <constraint firstAttribute="height" constant="41" id="tM1-Mi-HRC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sdm-n7-nkd"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="g2h-VE-oLe" firstAttribute="top" secondItem="sdm-n7-nkd" secondAttribute="top" constant="12" id="Ic3-nA-Upk"/>
+                            <constraint firstItem="g2h-VE-oLe" firstAttribute="leading" secondItem="sdm-n7-nkd" secondAttribute="leading" constant="8" id="LTR-wO-uQ4"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Матчи" id="FcM-lt-SfC">
+                        <imageReference key="image" image="calendar" catalog="system" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color systemColor="labelColor"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Agb-8V-SUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1350" y="-621"/>
+        </scene>
+        <!--Главная -->
+        <scene sceneID="Cdw-T5-QFc">
+            <objects>
+                <viewController id="mG7-UG-llS" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XKO-id-OQH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Главнаяя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkS-tZ-coX">
+                                <rect key="frame" x="8" y="71" width="165" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="165" id="0u8-sc-N0k"/>
+                                    <constraint firstAttribute="height" constant="41" id="wyh-gN-1dY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1sy-gW-GZy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XkS-tZ-coX" firstAttribute="leading" secondItem="1sy-gW-GZy" secondAttribute="leading" constant="8" id="O3k-yC-caS"/>
+                            <constraint firstItem="XkS-tZ-coX" firstAttribute="top" secondItem="1sy-gW-GZy" secondAttribute="top" constant="12" id="vAf-bz-1Jt"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Главная " id="6de-ah-zyu">
+                        <imageReference key="image" image="house.fill" catalog="system" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color systemColor="systemGreenColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Td2-gM-IgT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1349" y="-1275"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yTZ-cs-1QU">
+            <objects>
+                <tabBarController id="vs9-TD-poP" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZFc-UV-Tnn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" systemColor="systemGreenColor"/>
+                        <color key="barTintColor" systemColor="systemGreenColor"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="mG7-UG-llS" kind="relationship" relationship="viewControllers" id="rFe-MY-Vm2"/>
+                        <segue destination="VcK-7s-J7e" kind="relationship" relationship="viewControllers" id="SSl-vs-9d0"/>
+                        <segue destination="nlq-lb-n47" kind="relationship" relationship="viewControllers" id="6Tf-Ni-EsN"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="2cC-o1-KEr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5xp-ih-l4f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2106" y="-677"/>
+        </scene>
+        <!--Турниры-->
+        <scene sceneID="cuc-j3-4si">
+            <objects>
+                <viewController id="nlq-lb-n47" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uVm-s1-FTP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Турниры" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAd-Ie-haE">
+                                <rect key="frame" x="8" y="71" width="145" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="6F4-MK-bls"/>
+                                    <constraint firstAttribute="width" constant="145" id="QRE-1c-mxE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yx7-e5-Hmz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="nAd-Ie-haE" firstAttribute="leading" secondItem="yx7-e5-Hmz" secondAttribute="leading" constant="8" id="uxk-DP-PtL"/>
+                            <constraint firstItem="nAd-Ie-haE" firstAttribute="top" secondItem="yx7-e5-Hmz" secondAttribute="top" constant="12" id="vaR-Zf-dje"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Турниры" id="lY6-XV-5ze">
+                        <imageReference key="image" image="sportscourt.fill" catalog="system" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color systemColor="labelColor"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tvy-c3-PFn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2106" y="77"/>
+        </scene>
+        <!--Настройки -->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Настройки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fx6-Ec-F97">
+                                <rect key="frame" x="8" y="71" width="174" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="41" id="pPR-Pa-4NZ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="rfk-qa-DwE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fx6-Ec-F97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="9hh-j5-gLy"/>
+                            <constraint firstItem="Fx6-Ec-F97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="NPi-ED-niG"/>
+                            <constraint firstItem="Fx6-Ec-F97" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="QNB-Bi-3Lc"/>
+                            <constraint firstItem="Fx6-Ec-F97" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="uPR-Le-AZQ"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Настройки " id="ckV-qT-TVp">
+                        <imageReference key="image" image="gearshape.fill" catalog="system" symbolScale="large" renderingMode="hierarchical-single">
+                            <hierarchicalColors>
+                                <color systemColor="labelColor"/>
+                                <color systemColor="secondaryLabelColor"/>
+                                <color systemColor="tertiaryLabelColor"/>
+                            </hierarchicalColors>
+                        </imageReference>
+                    </tabBarItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1350" y="69"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" catalog="system" width="128" height="107"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="123"/>
+        <image name="house.fill" catalog="system" width="128" height="104"/>
+        <image name="sportscourt.fill" catalog="system" width="128" height="83"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
