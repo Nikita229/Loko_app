@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D702423E29F3E07F0075C78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702423D29F3E07F0075C78D /* AppDelegate.swift */; };
+		D702424029F3E07F0075C78D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702423F29F3E07F0075C78D /* SceneDelegate.swift */; };
+		D702424229F3E07F0075C78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702424129F3E07F0075C78D /* ViewController.swift */; };
+		D702424529F3E07F0075C78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702424329F3E07F0075C78D /* Main.storyboard */; };
+		D702424729F3E0800075C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D702424629F3E0800075C78D /* Assets.xcassets */; };
+		D702424A29F3E0800075C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702424829F3E0800075C78D /* LaunchScreen.storyboard */; };
+		D702425529F3E0800075C78D /* Loko_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702425429F3E0800075C78D /* Loko_appTests.swift */; };
+		D702425F29F3E0800075C78D /* Loko_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702425E29F3E0800075C78D /* Loko_appUITests.swift */; };
+		D702426129F3E0800075C78D /* Loko_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702426029F3E0800075C78D /* Loko_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D702425129F3E0800075C78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D702423229F3E07F0075C78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D702423929F3E07F0075C78D;
+			remoteInfo = Loko_app;
+		};
+		D702425B29F3E0800075C78D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D702423229F3E07F0075C78D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D702423929F3E07F0075C78D;
+			remoteInfo = Loko_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D702423A29F3E07F0075C78D /* Loko_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loko_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D702423D29F3E07F0075C78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D702423F29F3E07F0075C78D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D702424129F3E07F0075C78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D702424429F3E07F0075C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D702424629F3E0800075C78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D702424929F3E0800075C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D702424B29F3E0800075C78D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D702425029F3E0800075C78D /* Loko_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loko_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D702425429F3E0800075C78D /* Loko_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loko_appTests.swift; sourceTree = "<group>"; };
+		D702425A29F3E0800075C78D /* Loko_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loko_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D702425E29F3E0800075C78D /* Loko_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loko_appUITests.swift; sourceTree = "<group>"; };
+		D702426029F3E0800075C78D /* Loko_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loko_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D702423729F3E07F0075C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702424D29F3E0800075C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702425729F3E0800075C78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D702423129F3E07F0075C78D = {
+			isa = PBXGroup;
+			children = (
+				D702423C29F3E07F0075C78D /* Loko_app */,
+				D702425329F3E0800075C78D /* Loko_appTests */,
+				D702425D29F3E0800075C78D /* Loko_appUITests */,
+				D702423B29F3E07F0075C78D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D702423B29F3E07F0075C78D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D702423A29F3E07F0075C78D /* Loko_app.app */,
+				D702425029F3E0800075C78D /* Loko_appTests.xctest */,
+				D702425A29F3E0800075C78D /* Loko_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D702423C29F3E07F0075C78D /* Loko_app */ = {
+			isa = PBXGroup;
+			children = (
+				D702423D29F3E07F0075C78D /* AppDelegate.swift */,
+				D702423F29F3E07F0075C78D /* SceneDelegate.swift */,
+				D702424129F3E07F0075C78D /* ViewController.swift */,
+				D702424329F3E07F0075C78D /* Main.storyboard */,
+				D702424629F3E0800075C78D /* Assets.xcassets */,
+				D702424829F3E0800075C78D /* LaunchScreen.storyboard */,
+				D702424B29F3E0800075C78D /* Info.plist */,
+			);
+			path = Loko_app;
+			sourceTree = "<group>";
+		};
+		D702425329F3E0800075C78D /* Loko_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				D702425429F3E0800075C78D /* Loko_appTests.swift */,
+			);
+			path = Loko_appTests;
+			sourceTree = "<group>";
+		};
+		D702425D29F3E0800075C78D /* Loko_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D702425E29F3E0800075C78D /* Loko_appUITests.swift */,
+				D702426029F3E0800075C78D /* Loko_appUITestsLaunchTests.swift */,
+			);
+			path = Loko_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D702423929F3E07F0075C78D /* Loko_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D702426429F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_app" */;
+			buildPhases = (
+				D702423629F3E07F0075C78D /* Sources */,
+				D702423729F3E07F0075C78D /* Frameworks */,
+				D702423829F3E07F0075C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Loko_app;
+			productName = Loko_app;
+			productReference = D702423A29F3E07F0075C78D /* Loko_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D702424F29F3E0800075C78D /* Loko_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D702426729F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_appTests" */;
+			buildPhases = (
+				D702424C29F3E0800075C78D /* Sources */,
+				D702424D29F3E0800075C78D /* Frameworks */,
+				D702424E29F3E0800075C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D702425229F3E0800075C78D /* PBXTargetDependency */,
+			);
+			name = Loko_appTests;
+			productName = Loko_appTests;
+			productReference = D702425029F3E0800075C78D /* Loko_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D702425929F3E0800075C78D /* Loko_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D702426A29F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_appUITests" */;
+			buildPhases = (
+				D702425629F3E0800075C78D /* Sources */,
+				D702425729F3E0800075C78D /* Frameworks */,
+				D702425829F3E0800075C78D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D702425C29F3E0800075C78D /* PBXTargetDependency */,
+			);
+			name = Loko_appUITests;
+			productName = Loko_appUITests;
+			productReference = D702425A29F3E0800075C78D /* Loko_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D702423229F3E07F0075C78D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D702423929F3E07F0075C78D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D702424F29F3E0800075C78D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D702423929F3E07F0075C78D;
+					};
+					D702425929F3E0800075C78D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D702423929F3E07F0075C78D;
+					};
+				};
+			};
+			buildConfigurationList = D702423529F3E07F0075C78D /* Build configuration list for PBXProject "Loko_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D702423129F3E07F0075C78D;
+			productRefGroup = D702423B29F3E07F0075C78D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D702423929F3E07F0075C78D /* Loko_app */,
+				D702424F29F3E0800075C78D /* Loko_appTests */,
+				D702425929F3E0800075C78D /* Loko_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D702423829F3E07F0075C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D702424A29F3E0800075C78D /* LaunchScreen.storyboard in Resources */,
+				D702424729F3E0800075C78D /* Assets.xcassets in Resources */,
+				D702424529F3E07F0075C78D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702424E29F3E0800075C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702425829F3E0800075C78D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D702423629F3E07F0075C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D702424229F3E07F0075C78D /* ViewController.swift in Sources */,
+				D702423E29F3E07F0075C78D /* AppDelegate.swift in Sources */,
+				D702424029F3E07F0075C78D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702424C29F3E0800075C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D702425529F3E0800075C78D /* Loko_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D702425629F3E0800075C78D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D702426129F3E0800075C78D /* Loko_appUITestsLaunchTests.swift in Sources */,
+				D702425F29F3E0800075C78D /* Loko_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D702425229F3E0800075C78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D702423929F3E07F0075C78D /* Loko_app */;
+			targetProxy = D702425129F3E0800075C78D /* PBXContainerItemProxy */;
+		};
+		D702425C29F3E0800075C78D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D702423929F3E07F0075C78D /* Loko_app */;
+			targetProxy = D702425B29F3E0800075C78D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D702424329F3E07F0075C78D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D702424429F3E07F0075C78D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D702424829F3E0800075C78D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D702424929F3E0800075C78D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D702426229F3E0800075C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D702426329F3E0800075C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D702426529F3E0800075C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loko_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D702426629F3E0800075C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Loko_app/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D702426829F3E0800075C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loko_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loko_app";
+			};
+			name = Debug;
+		};
+		D702426929F3E0800075C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Loko_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Loko_app";
+			};
+			name = Release;
+		};
+		D702426B29F3E0800075C78D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loko_app;
+			};
+			name = Debug;
+		};
+		D702426C29F3E0800075C78D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JSGQ249TMT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.Loko-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Loko_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D702423529F3E07F0075C78D /* Build configuration list for PBXProject "Loko_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D702426229F3E0800075C78D /* Debug */,
+				D702426329F3E0800075C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D702426429F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D702426529F3E0800075C78D /* Debug */,
+				D702426629F3E0800075C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D702426729F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D702426829F3E0800075C78D /* Debug */,
+				D702426929F3E0800075C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D702426A29F3E0800075C78D /* Build configuration list for PBXNativeTarget "Loko_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D702426B29F3E0800075C78D /* Debug */,
+				D702426C29F3E0800075C78D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D702423229F3E07F0075C78D /* Project object */;
+}
