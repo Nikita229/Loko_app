@@ -13,18 +13,18 @@
         <!--Матчи-->
         <scene sceneID="4My-oy-dqV">
             <objects>
-                <viewController id="VcK-7s-J7e" sceneMemberID="viewController">
+                <viewController id="VcK-7s-J7e" customClass="GamesViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xDW-W0-and">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Матчи" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2h-VE-oLe">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Матчи" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g2h-VE-oLe">
                                 <rect key="frame" x="8" y="71" width="145" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="145" id="Mud-Kq-Mxe"/>
                                     <constraint firstAttribute="height" constant="41" id="tM1-Mi-HRC"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -48,23 +48,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agb-8V-SUd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1350" y="-621"/>
+            <point key="canvasLocation" x="-1350" y="-677"/>
         </scene>
         <!--Главная -->
         <scene sceneID="Cdw-T5-QFc">
             <objects>
-                <viewController id="mG7-UG-llS" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XKO-id-OQH">
+                <viewController id="mG7-UG-llS" customClass="MainViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XKO-id-OQH" customClass="MainV">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Главнаяя" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkS-tZ-coX">
-                                <rect key="frame" x="8" y="71" width="165" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Главная" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XkS-tZ-coX">
+                                <rect key="frame" x="8" y="71" width="193.66666666666666" height="41"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="165" id="0u8-sc-N0k"/>
+                                    <constraint firstAttribute="width" constant="193.66999999999999" id="WtG-ET-pKh"/>
                                     <constraint firstAttribute="height" constant="41" id="wyh-gN-1dY"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="34"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -88,7 +88,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Td2-gM-IgT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1349" y="-1275"/>
+            <point key="canvasLocation" x="-1350" y="-1379"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yTZ-cs-1QU">
@@ -97,6 +97,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZFc-UV-Tnn">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" systemColor="systemGreenColor"/>
                         <color key="barTintColor" systemColor="systemGreenColor"/>
                     </tabBar>
@@ -114,18 +115,18 @@
         <!--Турниры-->
         <scene sceneID="cuc-j3-4si">
             <objects>
-                <viewController id="nlq-lb-n47" sceneMemberID="viewController">
+                <viewController id="nlq-lb-n47" customClass="MatchViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uVm-s1-FTP">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Турниры" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAd-Ie-haE">
-                                <rect key="frame" x="8" y="71" width="145" height="41"/>
+                                <rect key="frame" x="8" y="71" width="187.33333333333334" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="6F4-MK-bls"/>
-                                    <constraint firstAttribute="width" constant="145" id="QRE-1c-mxE"/>
+                                    <constraint firstAttribute="width" constant="187.33000000000001" id="zmG-8l-ziD"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -149,23 +150,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvy-c3-PFn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2106" y="77"/>
+            <point key="canvasLocation" x="-2106" y="68"/>
         </scene>
         <!--Настройки -->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="SettingsViewController" customModule="Loko_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Настройки" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fx6-Ec-F97">
-                                <rect key="frame" x="8" y="71" width="174" height="41"/>
+                                <rect key="frame" x="8" y="71" width="230" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="41" id="pPR-Pa-4NZ"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="174" id="rfk-qa-DwE"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>

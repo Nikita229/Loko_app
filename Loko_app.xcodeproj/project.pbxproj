@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		D702423E29F3E07F0075C78D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702423D29F3E07F0075C78D /* AppDelegate.swift */; };
 		D702424029F3E07F0075C78D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702423F29F3E07F0075C78D /* SceneDelegate.swift */; };
-		D702424229F3E07F0075C78D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702424129F3E07F0075C78D /* ViewController.swift */; };
 		D702424529F3E07F0075C78D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702424329F3E07F0075C78D /* Main.storyboard */; };
 		D702424729F3E0800075C78D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D702424629F3E0800075C78D /* Assets.xcassets */; };
 		D702424A29F3E0800075C78D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D702424829F3E0800075C78D /* LaunchScreen.storyboard */; };
 		D702425529F3E0800075C78D /* Loko_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702425429F3E0800075C78D /* Loko_appTests.swift */; };
 		D702425F29F3E0800075C78D /* Loko_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702425E29F3E0800075C78D /* Loko_appUITests.swift */; };
 		D702426129F3E0800075C78D /* Loko_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D702426029F3E0800075C78D /* Loko_appUITestsLaunchTests.swift */; };
+		D7951CE429F56D4200630ECF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951CE329F56D4200630ECF /* MainViewController.swift */; };
+		D7951CE629F56D7D00630ECF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951CE529F56D7D00630ECF /* SettingsViewController.swift */; };
+		D7951CE829F56D9100630ECF /* GamesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951CE729F56D9100630ECF /* GamesViewController.swift */; };
+		D7951CEA29F56D9D00630ECF /* MatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951CE929F56D9D00630ECF /* MatchViewController.swift */; };
+		D7951CEC29F56E9800630ECF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7951CEB29F56E9800630ECF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		D702423A29F3E07F0075C78D /* Loko_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Loko_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D702423D29F3E07F0075C78D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D702423F29F3E07F0075C78D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D702424129F3E07F0075C78D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D702424429F3E07F0075C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D702424629F3E0800075C78D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D702424929F3E0800075C78D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		D702425A29F3E0800075C78D /* Loko_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Loko_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D702425E29F3E0800075C78D /* Loko_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loko_appUITests.swift; sourceTree = "<group>"; };
 		D702426029F3E0800075C78D /* Loko_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loko_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D7951CE329F56D4200630ECF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		D7951CE529F56D7D00630ECF /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D7951CE729F56D9100630ECF /* GamesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewController.swift; sourceTree = "<group>"; };
+		D7951CE929F56D9D00630ECF /* MatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchViewController.swift; sourceTree = "<group>"; };
+		D7951CEB29F56E9800630ECF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +109,11 @@
 			children = (
 				D702423D29F3E07F0075C78D /* AppDelegate.swift */,
 				D702423F29F3E07F0075C78D /* SceneDelegate.swift */,
-				D702424129F3E07F0075C78D /* ViewController.swift */,
+				D7951CE329F56D4200630ECF /* MainViewController.swift */,
+				D7951CE529F56D7D00630ECF /* SettingsViewController.swift */,
+				D7951CEB29F56E9800630ECF /* ViewController.swift */,
+				D7951CE929F56D9D00630ECF /* MatchViewController.swift */,
+				D7951CE729F56D9100630ECF /* GamesViewController.swift */,
 				D702424329F3E07F0075C78D /* Main.storyboard */,
 				D702424629F3E0800075C78D /* Assets.xcassets */,
 				D702424829F3E0800075C78D /* LaunchScreen.storyboard */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D702424229F3E07F0075C78D /* ViewController.swift in Sources */,
+				D7951CEA29F56D9D00630ECF /* MatchViewController.swift in Sources */,
 				D702423E29F3E07F0075C78D /* AppDelegate.swift in Sources */,
 				D702424029F3E07F0075C78D /* SceneDelegate.swift in Sources */,
+				D7951CE429F56D4200630ECF /* MainViewController.swift in Sources */,
+				D7951CEC29F56E9800630ECF /* ViewController.swift in Sources */,
+				D7951CE629F56D7D00630ECF /* SettingsViewController.swift in Sources */,
+				D7951CE829F56D9100630ECF /* GamesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
